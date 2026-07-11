@@ -33,7 +33,7 @@ class Program
         } 
             
         list_numbers.Sort();
-        int average = total_sum/ (list_numbers.Count -1);
+        double average = total_sum/ (list_numbers.Count -1);
 
         Console.WriteLine($"The sum is: {total_sum}");
         Console.WriteLine($"The average is: {average}");
